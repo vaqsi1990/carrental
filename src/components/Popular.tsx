@@ -34,7 +34,7 @@ const prestigiousBrands = [
 
 export const Popular = () => {
   return (
-    <section className=" h-40 md:h-96">
+    <section className=" ">
       <div className="max-w-7xl mb-16 mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className='text-black text-center text-[20px] md:text-[30px] font-bold'>გაეცანით მსოფლიოში ყველაზე პრესტიჟულ ბრენდებს</h1>
       </div>
@@ -43,7 +43,7 @@ export const Popular = () => {
         {prestigiousBrands.map((brand, index) => (
           <div
             key={brand.id}
-            className="group relative overflow-hidden cursor-pointer"
+            className="group overflow-hidden cursor-pointer"
           >
 
             <div className="
