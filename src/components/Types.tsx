@@ -84,7 +84,7 @@ export const Types = () => {
             {/* Custom Styles for Pagination */}
             <style jsx>{customStyles}</style>
             
-            <div className="py-20">
+            <div className="py-20 bg-white ">
                 <div className="mx-auto max-w-7xl px-6">
                     <div className="text-center mb-16">
                         <h2 className="text-[20px] lg:text-[30px] font-bold text-black">

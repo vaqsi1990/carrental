@@ -34,7 +34,7 @@ const prestigiousBrands = [
 
 export const Popular = () => {
   return (
-    <section className=" ">
+    <section className="bg-white ">
       <div className="max-w-7xl mb-16 mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className='text-black text-center text-[20px] md:text-[30px] font-bold'>გაეცანით მსოფლიოში ყველაზე პრესტიჟულ ბრენდებს</h1>
       </div>
